@@ -8,7 +8,7 @@ import java.util.UUID;
 import org.junit.Test;
 
 public class ApplicationTest {
-	@Test
+	@Test 
 	public void generalTest() throws Exception {
 		Application app1 = new Application("testsocket1");
 		Application app2 = new Application("testsocket2");

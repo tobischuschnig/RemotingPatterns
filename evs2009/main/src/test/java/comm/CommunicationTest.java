@@ -22,7 +22,7 @@ public class CommunicationTest {
 
 	@Test
 	public void testSocket() throws Exception {
-		
+	
 		ArrayList<ProtocolPlugin> cplugins = new ArrayList<ProtocolPlugin>();
 		cplugins.add(new comm.socket.SocketPlugin(12345));
 		//cplugins.add(new comm.soap.SOAPPlugin(23456));
